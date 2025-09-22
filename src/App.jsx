@@ -8,16 +8,12 @@ import LoginPage from './Components/LoginPage';
 function App() {
   return (
     <div>
-      <BrowserRouter  >
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path='/login' element={<LoginPage />} />
-        </Routes>
-      </BrowserRouter>
-
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path='/login' element={<LoginPage />} />
+      </Routes>
     </div>
-
   );
 }
 
